@@ -1,20 +1,15 @@
-import React from 'react'
-import { Gallery } from '../../components/Gallery'
+import React from "react";
+import { Gallery } from "../components/Gallery";
 
 export const Instant = () => {
   return (
+    <div className="container">
+      <div className="row">
+        <h3>VIAJE FOTOGRAFICO</h3>
+        <br />
 
-    <div>
-   <h1>Instant</h1>
-    
-    <Gallery />
-
+        <Gallery />
+      </div>
     </div>
-
-
-
-  )
-  
-
-  
-}
+  );
+};
