@@ -20,7 +20,7 @@ export const Gallery = () => {
     { id: 6, url: photo6, reactions: 0 },
     { id: 7, url: photo7, reactions: 0 },
     { id: 8, url: photo8, reactions: 0 },
-    { id: 9, url: photo9, reactions: 0 },
+    { id: 9, url: photo9, reactions: 0 }, 
   ]);
 
   const addReaction = (id) => {
