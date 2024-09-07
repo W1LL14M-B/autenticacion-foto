@@ -46,13 +46,13 @@ export const Gallery = () => {
             <div className="m-3 text-center">
               <p className="card-text">Reactions: {photo.reactions}</p>
               <button
-                className="btn btn-primary m-2"
+                className="btn btn-primary m-2 custom-btn"
                 onClick={() => addReaction(photo.id)}
               >
                 Me gusta
               </button>
               <button
-                className="btn btn-secondary"
+                className="btn btn-secondary custom-btn"
                 onClick={() =>
                   navigator.clipboard.writeText(
                     window.location.href + `#photo-${photo.id}`
@@ -61,6 +61,7 @@ export const Gallery = () => {
               >
                 Compartir
               </button>
+         
             </div>
           </div>
         ))}

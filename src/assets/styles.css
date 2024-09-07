@@ -1,8 +1,0 @@
-.card-img-top {
-    width: 100%;
-    height: 200px; /* Ajusta la altura según tu preferencia */
-    object-fit: cover; /* Hace que la imagen se recorte para encajar en el contenedor sin distorsionar */
-  }
-  .caja-1 {
-    padding: 20px;
-  }
